@@ -13,3 +13,11 @@ vim.opt.rtp:prepend(lazypath)
 
 require("vim-options")
 require("lazy").setup("plugins")
+require("tokyonight").setup {
+  transparent = true,
+  styles = {
+    sidebars = "transparent",
+    floats = "transparent",
+  }
+
+}
